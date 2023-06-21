@@ -1,0 +1,41 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+body {
+    Background-color:pink;
+    Color:rgb(11, 254, 11);
+    }
+    h1 {
+    font-family:rockwell;
+    Font-size: 80px;
+    Padding: 10px;
+    Margin:20px;
+}
+.parrafo1 {
+color: white;
+background-color: black;
+border: 5px solid white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+
+  .formulario {
+    color: black;
+    background-color: black;
+    border: 5px solid white;
+  }
